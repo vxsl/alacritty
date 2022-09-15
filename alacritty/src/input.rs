@@ -40,7 +40,7 @@ use crate::message_bar::{self, Message};
 use crate::scheduler::{Scheduler, TimerId, Topic};
 
 /// Font size change interval.
-pub const FONT_SIZE_STEP: f32 = 8.0;
+pub const FONT_SIZE_STEP: f32 = 4.0;
 
 /// Interval for mouse scrolling during selection outside of the boundaries.
 const SELECTION_SCROLLING_INTERVAL: Duration = Duration::from_millis(15);
